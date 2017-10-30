@@ -1,2 +1,2 @@
-# enaml-native-charts
-Charts for enaml-native
+# enaml-native-icons
+Iconfiy icons for enaml-native
