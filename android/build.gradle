@@ -5,10 +5,10 @@ android {
     buildToolsVersion '26.0.2'
 
     defaultConfig {
-        minSdkVersion 19
+        minSdkVersion 21
         targetSdkVersion 27
-        versionCode 12
-        versionName "1.12"
+        versionCode 2
+        versionName "2.0"
         vectorDrawables.useSupportLibrary = true
     }
 
@@ -17,15 +17,6 @@ android {
 
 dependencies {
     api project(':enaml-native')
-
-    api 'com.joanzapata.iconify:android-iconify-fontawesome:2.2.2' // (v4.5)
-    api 'com.joanzapata.iconify:android-iconify-entypo:2.2.2' // (v3,2015)
-    api 'com.joanzapata.iconify:android-iconify-typicons:2.2.2' // (v2.0.7)
-    api 'com.joanzapata.iconify:android-iconify-material:2.2.2' // (v2.0.0)
-    api 'com.joanzapata.iconify:android-iconify-material-community:2.2.2' // (v1.4.57)
-    api 'com.joanzapata.iconify:android-iconify-meteocons:2.2.2' // (latest)
-    api 'com.joanzapata.iconify:android-iconify-weathericons:2.2.2' // (v2.0)
-    api 'com.joanzapata.iconify:android-iconify-simplelineicons:2.2.2' // (v1.0.0)
-    api 'com.joanzapata.iconify:android-iconify-ionicons:2.2.2' // (v2.0.1)
+    api 'com.joanzapata.iconify:android-iconify:2.2.2' // (v2.0.0)
 }
 
