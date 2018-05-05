@@ -52,7 +52,7 @@ def install(*icon_packs):
     for icon_pack in icon_packs:
         mod = importlib.import_module(icon_pack)
         IconifyPackage.addIconPack(mod.SOURCE,
-                                   mod.ICONS.keys(),
+                                   tuple(mod.ICONS.keys()),
                                    u"".join(mod.ICONS.values()))
 
 
