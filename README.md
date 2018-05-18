@@ -32,7 +32,7 @@ def load_view(app):
     iconify.install() # defaults are material and material_community icons
     
     # Or you can pass in icons to use
-    # iconify.install('iconify.icons.fontawesome', 'iconify.icons.weathericons')
+    # iconify.install('iconify.fontawesome', 'iconify.weathericons')
 
     with enaml.imports():
         import view
