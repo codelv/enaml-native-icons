@@ -29,6 +29,7 @@ BUILTIN_ICON_PACKS = [
     'iconify.simplelineicons',
     'iconify.typicons',
     'iconify.weathericons',
+    'iconify.devicon'
 ]
 
 
