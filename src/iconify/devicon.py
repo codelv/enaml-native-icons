@@ -1,4 +1,4 @@
-SOURCE = 'iconify/cryptocoins.ttf'
+SOURCE = 'iconify/devicon.ttf'
 
 ICONS = {
   'sketch-line-wordmark': '\uE94c',
