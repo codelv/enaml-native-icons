@@ -9,12 +9,13 @@ from setuptools import setup, find_packages
 
 setup(
     name="enaml-native-icons",
-    version="2.0.2",
+    version="2.0.3",
     author="Jairus Martin",
     author_email="frmdstryr@gmail.com",
     license='MIT',
     packages=find_packages('src'),
-    package_dir={'':'src'},
+    package_dir={'': 'src'},
     description="enaml-native-icons package for enaml-native-cli",
     long_description=open("README.md").read(),
+    long_description_content_type="text/markdown",
 )
